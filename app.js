@@ -44,6 +44,7 @@ const convertDirectorDbObjectToResponseObject = (dbObject) => {
   };
 };
 
+
 app.get("/movies/", async (request, response) => {
   const getMoviesQuery = `
     SELECT
